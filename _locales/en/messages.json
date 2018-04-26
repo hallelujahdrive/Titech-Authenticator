@@ -1,0 +1,11 @@
+{
+    "extensionDescription": {
+        "message": "Automize Matrix Auth of Tokyo Tech portal",
+        "description": "Description of the extension."
+    },
+
+    "submitButtonText": {
+        "message": "Save",
+        "description": "Label of submit button on Optiion Menu."
+    }
+}

@@ -2,14 +2,14 @@
 
   "description": "__MSG_extensionDescription__",
   "manifest_version": 2,
-  "name": "Titech Authenticator",
-  "version": "1.0.0",
+  "name": "Titech Authenticator develop",
+  "version": "1.0.1",
   "icons": {
     "48": "icons/extension-48.png"
   },
   "applications": {
     "gecko": {
-      "id": "titech-authenricator@hallelujahdrive.github.io"
+      "id": "titech-authenricator-dev@hallelujahdrive.github.io"
     }
   },
 

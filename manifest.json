@@ -3,11 +3,16 @@
   "description": "__MSG_extensionDescription__",
   "manifest_version": 2,
   "name": "Titech Authenticator",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "icons": {
     "48": "icons/extension-48.png"
   },
-  
+  "applications": {
+    "gecko": {
+      "id": "titech-authenricator@hallelujahdrive.github.io"
+    }
+  },
+
   "content_scripts": [
     {
       "matches": ["https://portal.nap.gsic.titech.ac.jp/GetAccess/Login*"],

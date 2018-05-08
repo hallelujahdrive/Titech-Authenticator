@@ -24,7 +24,6 @@ function onGot(items) {
         let result = document.evaluate(".//td[1]/text()", document.body, null, XPathResult.ANY_TYPE, null);
         while (node = result.iterateNext()){
             if (node.nodeValue == timeLimitMessage ){
-                console.log (value);
                 f = true;
             }
         }
@@ -38,8 +37,6 @@ function authAccountAndPassword(items) {
     let account = items.account;
     let password = items.password;
     
-    console.debug (document.referrer);
-
     if (account == null || account == "" || password == null || password == "") {
         // 設定されていなければ設定画面を表示
         openOptions (browser.i18n.getMessage("accountAndPasswordConfirmMessage"));

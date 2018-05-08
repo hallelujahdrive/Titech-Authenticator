@@ -7,5 +7,20 @@
     "submitButtonText": {
         "message": "保存する",
         "description": "オプションメニューのサブミットボタンのラベル"
+    },
+
+    "optionsTitle": {
+        "message": "Titech Autonicatorの設定",
+        "description": "オプションのタイトル"
+    },
+
+    "accountAndPasswordConfirmMessage": {
+        "message": "ログインに失敗しました。\nAccount及びPasswordを設定してください",
+        "description": "AccountとPasswordを設定するためにオプションを開く確認ダイアログのメッセージ"
+    },
+
+    "matrixConfirmMessage": {
+        "message": "ログインに失敗しました。\nMatrixを設定してください",
+        "description": "Matrixを設定するためにオプションを開く確認ダイアログのメッセージ"
     }
 }

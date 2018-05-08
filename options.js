@@ -5,7 +5,7 @@ function saveOptions(e) {
   // tableから二元配列を生成
   let csv = [];
   let table = document.getElementById("matrix_table");
-  // for (let r in table.rows) {
+
   for (let i = 1; i < table.rows.length; i++) {
     let row = [];
     for (let j = 1; j < table.rows[i].cells.length; j++) {
@@ -71,6 +71,7 @@ function handleFiles(e) {
   reader.readAsText(file);
 }
 
+document.title = browser.i18n.getMessage ("optionsTitle");
 document.getElementById("submit").textContent = browser.i18n.getMessage("submitButtonText");
 document.addEventListener("DOMContentLoaded", restoreOptions);
 document.querySelector("form").addEventListener("submit", saveOptions);

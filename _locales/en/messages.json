@@ -7,5 +7,21 @@
     "submitButtonText": {
         "message": "Save",
         "description": "Label of submit button on Optiion Menu."
+    },
+
+    "optionsTitle": {
+        "message": "Titech Autonicator Options",
+        "description": "A title of the option menu"
+    },
+
+    "accountAndPasswordConfirmMessage": {
+        "message": "Failed to login.\nPlease set Account and Password",
+        "description": "A message of the confirm dialog to open the option menu to set Account and Password"
+    },
+
+    "matrixConfirmMessage": {
+        "message": "Failed to login.\nPlease set Matrix",
+        "description": "A message of the confirm dialog to open the option menu to set Matrix"
     }
+
 }

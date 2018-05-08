@@ -2,7 +2,7 @@
 
   "description": "__MSG_extensionDescription__",
   "manifest_version": 2,
-  "name": "Titech Authenticator develop",
+  "name": "Titech Authenticator",
   "version": "1.0.2",
   "icons": {
     "48": "icons/extension-48.png"

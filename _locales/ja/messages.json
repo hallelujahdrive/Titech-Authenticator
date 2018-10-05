@@ -22,5 +22,16 @@
     "matrixConfirmMessage": {
         "message": "ログインに失敗しました。\nMatrixを設定してください",
         "description": "Matrixを設定するためにオプションを開く確認ダイアログのメッセージ"
+    },
+
+    "openTokyoTechPortalPage": {
+        "message": "東工大ポータルを開く",
+        "description": "東工大ポータルを開くメニューのタイトル"
+    },
+
+
+    "loginT2Wireless": {
+        "message": "東工大無線LANにログイン",
+        "description": "東工大無線LANにログインするメニューのタイトル"
     }
 }

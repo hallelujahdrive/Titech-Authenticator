@@ -22,6 +22,16 @@
     "matrixConfirmMessage": {
         "message": "Failed to login.\nPlease set Matrix",
         "description": "A message of the confirm dialog to open the option menu to set Matrix"
+    },
+
+    "openTokyoTechPortalPage": {
+        "message": "Open the Tokyo Tech Portal",
+        "description": "A title of open Tokyo Tech Portal menu"
+    },
+
+    "loginT2Wireless": {
+        "message": "Logion to Titech Wireless LAN",
+        "description": "A title that to logion to　Titech Wireless LAN"
     }
 
 }

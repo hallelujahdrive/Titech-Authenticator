@@ -1,5 +1,5 @@
 const TitechPortalURL = "https://portal.titech.ac.jp/"
-const T2WirelessURL = "https://wlanauth.noc.titech.ac.jp/fs/customwebauth/techauth.html"
+const T2WirelessURL = "https://wlanauth.noc.titech.ac.jp/login.html"
 
 document.getElementById("menu_link").textContent = browser.i18n.getMessage("openTokyoTechPortalPage");
 document.getElementById("menu_link").addEventListener("click", function(e) {
@@ -47,11 +47,17 @@ function onGot(items) {
 
       var xhr = new XMLHttpRequest ();
       xhr.open("POST", T2WirelessURL);
-      xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded;charset=UTF-8");
+      xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
       xhr.onreadystatechange = function() {
- 
-            alert(xhr.responseText);
+        if (xhr.status == 200 || xhr.status == 304) {
+          alert(xhr.status);
+        } else {
+        }
+      }
+      xhr.onerror = function() {
+        alert(xhr.responseText)
+        alert("error")
       }
       xhr.send(queue)
-    }
+  }
 }

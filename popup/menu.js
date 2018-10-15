@@ -48,16 +48,7 @@ function onGot(items) {
       var xhr = new XMLHttpRequest ();
       xhr.open("POST", T2WirelessURL);
       xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
-      xhr.onreadystatechange = function() {
-        if (xhr.status == 200 || xhr.status == 304) {
-          alert(xhr.status);
-        } else {
-        }
-      }
-      xhr.onerror = function() {
-        alert(xhr.responseText)
-        alert("error")
-      }
+
       xhr.send(queue)
   }
 }
